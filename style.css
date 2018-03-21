@@ -1,0 +1,95 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0; }
+
+.hello {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: url("img/background.jpg");
+  height: 960px;
+  color: #302D2D;
+  text-align: center; }
+  .hello h1 {
+    height: 240px;
+    margin: 0;
+    margin-left: 20px;
+    font-weight: normal;
+    font-family: "EB garamond", "serif";
+    font-size: 210px;
+    position: relative;
+    top: 215px; }
+  .hello a {
+    text-decoration: none;
+    color: #75B29C;
+    font-family: "Arial", "serif";
+    line-height: 2.7em; }
+  .hello h2 {
+    font-family: Basic, sans-serif;
+    margin: 0;
+    font-size: 23px;
+    font-weight: lighter;
+    position: relative;
+    top: 220px;
+    left: 10px; }
+
+.helloimg img {
+  position: relative;
+  top: 270px;
+  left: 10px; }
+
+.project {
+  height: 1493px;
+  background-color: white; }
+
+.contact {
+  height: 705px;
+  background-color: #ccf6e7; }
+
+h3 {
+  position: relative;
+  top: 80px;
+  left: 2px;
+  margin: 0;
+  font-family: "EB garamond", "serif";
+  color: #302D2D;
+  font-size: 19px/1.4em;
+  font-weight: normal;
+  text-align: center; }
+
+.eerstep p {
+  text-align: center;
+  font-family: "Arial", "serif";
+  position: relative;
+  top: 107px;
+  font-size: 14px;
+  color: #302D2D;
+  line-height: 1.5em;
+  margin: 0; }
+
+#social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 115px;
+  margin: 0 auto;
+  position: relative;
+  top: 155px;
+  left: 8px; }
+
+.flex-item {
+  width: 500px; }
+
+.tweedep p {
+  position: relative;
+  top: 188px;
+  margin: 0;
+  font-family: "EB garamond", "serif";
+  color: #302D2D;
+  font-size: 19px;
+  font-weight: normal;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

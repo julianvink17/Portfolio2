@@ -1,0 +1,125 @@
+$font1: "EB garamond", "serif";
+$font2: Basic, sans-serif;
+$colorFont: #302D2D;
+$colorHome: #75B29C;
+$font3: normal;
+$font4: center;
+$font5: "Arial", "serif";
+$contact: rgba(204, 246, 231, 1);
+
+
+body{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+.hello{
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: url("img/background.jpg");
+  height: 960px;
+  color: $colorFont;
+  text-align: $font4;
+  h1 {
+    height: 240px;
+    margin: 0;
+    margin-left: 20px;
+    font-weight: $font3;
+    font-family: $font1;
+    font-size: 210px;
+    position: relative;
+    top: 215px;
+  }
+  a{
+    text-decoration: none;
+    color: $colorHome;
+    font-family: $font5;
+    line-height: 2.7em;
+  }
+  h2{
+    font-family: $font2;
+    margin: 0;
+    font-size: 23px;
+    font-weight: lighter;
+    position: relative;
+    top: 220px;
+    left: 10px;
+  }
+}
+.helloimg{
+  img{
+    position: relative;
+    top: 270px;
+    left: 10px;
+  }
+}
+.project{
+height: 1493px;
+  background-color: white;
+}
+
+.contact{
+  height: 705px;
+  background-color: $contact;
+}
+h3{
+  position: relative;
+  top: 80px;
+  left: 2px;
+  margin: 0;
+  font-family: $font1;
+  color: $colorFont;
+  font-size: 19px/1.4em;
+  font-weight: $font3;
+  text-align: $font4;
+}
+
+.eerstep{
+  p {
+    text-align: $font4;
+    font-family: $font5;
+    position: relative;
+    top: 107px;
+    font-size: 14px;
+    color: $colorFont;
+    line-height: 1.5em;
+    margin: 0;
+  }
+}
+#social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 115px;
+  margin: 0 auto;
+  position: relative;
+  top: 155px;
+  left: 8px;
+}
+
+.flex-item {
+  width: 500px;
+
+}
+.tweedep {
+  p {
+    position: relative;
+    top: 188px;
+    margin: 0;
+    font-family: $font1;
+    color: $colorFont;
+    font-size: 19px;
+    font-weight: $font3;
+    text-align: $font4;
+  }
+}
+
+
+
+
+
+
+
+
