@@ -181,6 +181,6 @@ input[type=submit] {
 .image1 {
   top: 20px;
   left: -300px;
-  background-position: center; }
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */
