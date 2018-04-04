@@ -208,12 +208,77 @@ input[type= submit]{
 
 //---------------------------IMAGES -----------------------------//
 
-.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13{
+/*.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13{
 position: relative;
   text-align: center;
+
 }
 .image1{
   top: 20px;
-  left: -300px;
-  background-size: cover;
+  left: 305px;
+}
+.image2{
+  height: 129px;
+  bottom: 260px;
+
+}
+.image3{
+  bottom: 393px;
+  right: -196px;
+}
+.image4{
+  bottom: 526px;
+  right: -391px;
+}
+.image5{
+  bottom: 363px;
+  right: 300px;
+}
+.image6{
+  bottom: 790px;
+  left: 196px;
+}*/
+.project{
+
+}
+.grid1{
+  text-align: center;
+  display: grid;
+  padding: 20px;
+}
+.image1{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.image2{
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.image3{
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.image4{
+  grid-column-start: 6;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.image5{
+  grid-column-start: 3;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 10;
+}
+.image6{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 10;
 }
